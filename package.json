@@ -1,0 +1,30 @@
+{
+  "name": "instagram-clone-site",
+  "version": "1.0.0",
+  "description": "Practice of node.js, express.js, mongoDB, multer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashikkhandani/instagram-clone-site.git"
+  },
+  "author": "Ashik Ahammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashikkhandani/instagram-clone-site/issues"
+  },
+  "homepage": "https://github.com/ashikkhandani/instagram-clone-site#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.8",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
